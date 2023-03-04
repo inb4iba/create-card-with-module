@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 400px;
+}
+
+label {
+  margin-bottom: 0.15rem;
+}
+
+input,
+textarea {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 1rem;
+}
+
+textarea {
+  min-height: 4rem;
+  width: calc(100%-2rem);
+}
+
+button {
+  padding: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+  border-radius: 0.5rem;
+  width: fit-content;
+  max-width: 230px;
+}
+
+.card img {
+  max-width: 200px;
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
